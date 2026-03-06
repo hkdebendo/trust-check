@@ -6,7 +6,7 @@ TrustCheck est une application web légère qui utilise l'intelligence artificie
 
 ---
 
-## 🛠️ Fonctionnalités
+##Fonctionnalités
 
 ### Modules IA
 
@@ -21,7 +21,7 @@ TrustCheck est une application web légère qui utilise l'intelligence artificie
 
 ---
 
-## 💻 Installation
+##Installation
 
 1. **Cloner le dépôt**
 
@@ -50,7 +50,7 @@ python app.py
 
 ---
 
-## 📝 Contribution
+##Contribution
 
 Les contributions sont les bienvenues !
 
