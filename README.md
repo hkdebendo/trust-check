@@ -15,7 +15,7 @@ TrustCheck est une application web légère qui utilise l'intelligence artificie
 
 ### Application Web
 
-* Interface web simple avec **Flask**.
+* Interface web simple avec **HTML5 | CSS3 | JS**.
 * Permet de tester directement vos textes et images.
 * Résultats avec score de confiance et classification instantanée.
 
@@ -26,7 +26,7 @@ TrustCheck est une application web légère qui utilise l'intelligence artificie
 1. **Cloner le dépôt**
 
 ```bash
-git clone https://github.com/<votre-utilisateur>/TrustCheck.git
+git clone https://github.com/hkdebendo/TrustCheck.git
 cd TrustCheck
 ```
 
@@ -47,30 +47,6 @@ python app.py
 
 4. **Accéder à l’interface**
    Ouvrir votre navigateur à l’adresse : `http://127.0.0.1:5000`
-
----
-
-
-
-
-
-## ⚡ Exemple d’utilisation
-
-**Pour trustTest (texte)**
-
-```python
-from models.trustTest import predict_text
-result = predict_text("Ton texte ici")
-print(result)  # Retourne : {'label': 'haineux', 'score': 0.92}
-```
-
-**Pour trustVision (image)**
-
-```python
-from models.trustVision import predict_image
-result = predict_image("chemin/vers/image.jpg")
-print(result)  # Retourne : {'label': 'inapproprié', 'score': 0.88}
-```
 
 ---
 
